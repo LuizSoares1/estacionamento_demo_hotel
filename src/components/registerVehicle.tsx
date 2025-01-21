@@ -180,7 +180,7 @@ const RegisterVehicle: React.FC = () => {
                 color: activeTab === "diarista" ? "#fff" : "#6c757d"
               }}
             >
-              Diaristas/Pernoite
+              Diárias
             </a>
           </li>
           <li className="nav-item" role="presentation">
