@@ -1,0 +1,68 @@
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+    #mensalistasTable th:nth-child(1), #mensalistasTable td:nth-child(1) {
+        width: 15%; /* Nome */
+      }
+      
+      #mensalistasTable th:nth-child(2), #mensalistasTable td:nth-child(2) {
+        width: 15%; /* CPF */
+      }
+      
+      #mensalistasTable th:nth-child(3), #mensalistasTable td:nth-child(3) {
+        width: 10%; /* Veículo */
+      }
+      
+      #mensalistasTable th:nth-child(4), #mensalistasTable td:nth-child(4) {
+        width: 10%; /* Cor */
+      }
+      
+      #mensalistasTable th:nth-child(5), #mensalistasTable td:nth-child(5) {
+        width: 10%; /* Placa */
+      }
+      
+      #mensalistasTable th:nth-child(6), #mensalistasTable td:nth-child(6) {
+        width: 10%; /* Data Início */
+      }
+      
+      #mensalistasTable th:nth-child(7), #mensalistasTable td:nth-child(7) {
+        width: 10%; /* Data Fim */
+      }
+      
+      #mensalistasTable th:nth-child(8), #mensalistasTable td:nth-child(8) {
+        width: 10%; /* Valor */
+      }
+      
+      #mensalistasTable th:nth-child(9), #mensalistasTable td:nth-child(9) {
+        width: 10%; /* Forma de Pagamento */
+      }
+      
+      #mensalistasTable th:nth-child(10), #mensalistasTable td:nth-child(10) {
+        width: 10%; /* Ações */
+      }
+
+  #mensalistasTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  #mensalistasTable th,
+  #mensalistasTable td {
+    font-size: 12px;
+    padding: 4px;
+  }
+}

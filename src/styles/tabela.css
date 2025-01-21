@@ -1,0 +1,60 @@
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+    #diaristasTable th:nth-child(1), #diaristasTable td:nth-child(1) {
+    width: 15%;
+    }
+
+    #diaristasTable th:nth-child(2), #diaristasTable td:nth-child(2) {
+    width: 15%;
+    }
+
+    #diaristasTable th:nth-child(3), #diaristasTable td:nth-child(3) {
+    width: 10%;
+    }
+
+    #diaristasTable th:nth-child(4), #diaristasTable td:nth-child(4) {
+    width: 10%;
+    }
+
+    #diaristasTable th:nth-child(5), #diaristasTable td:nth-child(5) {
+    width: 15%;
+    }
+
+    #diaristasTable th:nth-child(6), #diaristasTable td:nth-child(6) {
+    width: 10%;
+    }
+
+    #diaristasTable th:nth-child(7), #diaristasTable td:nth-child(7) {
+    width: 15%;
+    }
+
+    #diaristasTable th:nth-child(8), #diaristasTable td:nth-child(8) {
+    width: 10%;
+    }
+
+  #diaristasTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  #diaristasTable th,
+  #diaristasTable td {
+    font-size: 12px;
+    padding: 4px;
+  }
+}

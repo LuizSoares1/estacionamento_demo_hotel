@@ -1,0 +1,76 @@
+.buttonRegisterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+    .veiculoPropss {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .registerContainerDiv {
+        height: 100vh;
+    }
+
+    .dataHoraDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dataContainer, .horaContainer {
+        width: 49%;
+    }
+
+    .veiculoContainerDiv, .corContainerDiv, .placaContainerDiv {
+        width: 32.7%;
+    }
+
+    .pagamentoContainerDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .valorContainerDiv, .payFormContainerDiv {
+        width: 49%;
+    }
+
+    .personInfoContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cpfContainerDiv, .nascimentoContainerDiv {
+        width: 49%;
+    } 
+
+    .dataMensalistaContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dataInicioDiv, .dataEndDiv {
+        width: 49%;
+    }
+
+    .tabChildContent {
+        max-width: 600px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #vehicleTabsContent {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .veiculoPropss {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

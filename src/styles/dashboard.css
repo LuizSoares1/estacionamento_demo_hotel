@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    .graficosDiv {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .dougnutDiv {
+        width: 26% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .dougnutDiv {
+        margin-top: 50px;
+    }
+}
